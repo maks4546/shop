@@ -1,0 +1,78 @@
+body{
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    margin-right: 200px;
+}
+
+img{
+
+	width:200px;
+	height:100px; 
+}
+
+.img_product img{
+	width: 25%;
+	height:25%;
+}
+
+.block{
+	padding-top: 65px;
+	padding-left: 100px;
+}
+
+.strelka{
+	width: 30px;
+	height:10px;
+}
+
+
+header .banner{
+    background-image:url(../img/bacmain.png);
+    min-height: 750px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+#menu{
+    width: 100%;
+    height: 4.16vmax;
+}
+
+nav li {
+	list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color:#333;
+    font-size: 18px;
+}
+
+
+#main_nav,
+#main_nav li,
+#main_nav a {
+	display: flex;
+	flex-flow: row nowrap;
+	height: inherit;
+	align-items: center;
+	justify-content: center;
+}
+
+#main_nav a {
+	padding: 0 1vmax;
+}
+#main_nav a:hover{
+    color: #7bb57c;
+}
