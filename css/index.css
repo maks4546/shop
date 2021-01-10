@@ -1,5 +1,21 @@
 body{
     margin: 0 auto;
+    max-width: 1240px;
+}
+
+.general_nav{
+    display: flex;
+    align-items: center;
+}
+
+#main_nav button{
+    color: grey;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 nav{
@@ -7,7 +23,7 @@ nav{
 }
 
 .logo{
-    margin-right: 200px;
+    margin-right: 250px;
 }
 
 img{
@@ -17,16 +33,18 @@ img{
 }
 
 .img_product img{
-	width: 25%;
-	height:25%;
+	width: 365px;
+	height:240px;
 }
 
 .block{
 	padding-top: 65px;
-	padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.strelka{
+.pointer{
 	width: 30px;
 	height:10px;
 }
@@ -38,7 +56,7 @@ header .banner{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
 } 
@@ -67,7 +85,7 @@ nav a {
 	flex-flow: row nowrap;
 	height: inherit;
 	align-items: center;
-	justify-content: center;
+	justify-content: right;
 }
 
 #main_nav a {
@@ -75,4 +93,109 @@ nav a {
 }
 #main_nav a:hover{
     color: #7bb57c;
+}
+
+.w-text-block{
+    display: block;
+    width: 570px;
+    height: 184;
+    font-size: 84px;
+    font-weight: 700;
+}
+
+.text-ui-brand-color{
+    color: #7bb57c;
+}
+.text-ui-dark-shade-color{
+    color: #333;
+}
+
+.banner{
+    padding: 0;
+    justify-content: left;
+}
+
+.banner p{
+    color: #333;
+    font-size: 20px;
+}
+
+.banner button{
+    color: white;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #7bb57c;
+    width: 220px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info a{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sale, .new{
+    color: #7bb57c;
+
+}
+
+.info_text{
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.selling .text-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 84px;
+    font-weight: 700;
+}
+
+.best{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.high{
+    font-size: 38px;
+    font-weight: bold;
+    color: #333;
+}
+
+.low{
+    font-size: 18px;
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.between{
+    color: #333;
+}
+
+.best-selling{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
