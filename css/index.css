@@ -199,3 +199,123 @@ nav a {
     justify-content: space-between;
 
 }
+
+.spring-coll{
+    padding-top: 60px;
+    background-image:url(../img/bacgroung-img\ 2.png);
+    min-height: 650px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spring-coll button{
+    color: white;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #7bb57c;
+    width: 220px;
+}
+
+.spring-coll p{
+    color: #333;
+    font-size: 20px;
+    width: 600px;
+}
+
+.mini-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.mini1{
+   background-image: url(../img/mini1bac.png);
+   background-position-x: 10%;
+   background-position-y: 45%;
+   background-size: cover;
+   width: 570px;
+   height: 366px;
+   
+}
+
+.mini2{
+   background-image: url(../img/mini2bac.png);
+   background-position-x: 10%;
+   background-position-y: 45%;
+   background-size: cover;
+   width: 570px;
+   height: 366px;
+   
+}
+
+.content_text_import{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding-top: 60px;
+}
+
+.content_text_import_gen{
+    display: block;
+    width: 350px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+}
+
+.content_text{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color:gray;
+}
+
+.content_text_import,
+.content_text_import_gen,
+.content_text{
+    padding-left: 40px;
+}
+
+.butt button{
+    margin-left: 40px;
+    color: white;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #7bb57c;
+
+}
+
+.mini2 .content_text_import{
+    color: rgb(169, 169, 169);
+}
+
+.mini2 .content_text_import_gen{
+    color: #ffff;
+    width: 400px;
+}
+
+.mini2 .content_text{
+    color: white;
+}
+.products h2{
+    color: rgb(51, 51, 51);
+    font-size: 38px;
+}
+
+.products p{
+    color: #333;
+    font-size: 20px;
+}
