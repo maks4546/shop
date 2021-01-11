@@ -319,3 +319,125 @@ nav a {
     color: #333;
     font-size: 20px;
 }
+
+.armchairs,
+.lamps,
+.tables{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_product_second img{
+    width: 250px;
+    height: 290px;
+}
+
+.product_conteiner{
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price{
+    padding-bottom: 20px;
+    color: #7bb57c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.best-selling button{
+    color: white;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    background-color: #7bb57c;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tables button{
+    color: grey;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.lamps button{
+    color: grey;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.armchairs button{
+    color: grey;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.top_brand_1{
+    margin-top: 90px;
+}
+
+
+.main_brand{
+    display: flex;
+}
+
+.top_brand_1{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+
+}
+.top_product_image1 img{
+    width: 600px;
+    height: 400px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.top_brand_1 .content_text_import_gen{
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 10px;
+    color: #333;
+
+}
+
+.top_brand_1 button{
+    color: grey;
+    border: 1px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    background-color: white;
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.top_product_image2 img{
+    width: 600px;
+    height: 400px;
+    margin-top: 0;
+    padding-top: 0;
