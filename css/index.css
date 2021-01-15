@@ -45,7 +45,7 @@ img{
 }
 
 .pointer{
-	width: 30px;
+	width: 20px;
 	height:10px;
 }
 
@@ -74,7 +74,7 @@ nav li {
 nav a {
     text-decoration: none;
     color:#333;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -158,15 +158,25 @@ nav a {
     padding-bottom: 20px;
 }
 
+.selling{
+    justify-content: center;
+    align-items: center;
+}
+
 .selling .text-block{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
     height: 300px;
     margin: 0 auto;
     font-size: 84px;
     font-weight: 700;
+}
+
+.text_{
+    align-items: center;
+    justify-content: center;
 }
 
 .best{
@@ -189,7 +199,7 @@ nav a {
     padding-bottom: 30px;
 }
 
-.between{
+.betwen{
     color: #333;
 }
 
@@ -441,3 +451,26 @@ nav a {
     height: 400px;
     margin-top: 0;
     padding-top: 0;
+}
+
+
+.shop{
+    
+}
+
+
+
+.box{
+
+}
+
+
+
+.tab-content{
+
+}
+
+
+.bestseller-list{
+
+}  
