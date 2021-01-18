@@ -453,6 +453,18 @@ nav a {
     padding-top: 0;
 }
 
+.bestseller-card{
+    display: flex;
+}
+
+.products{
+    
+}
+
+#shop-tab{
+    width: 100%;
+}
+
 
 .shop{
     
@@ -461,16 +473,26 @@ nav a {
 
 
 .box{
-
+    display: flex;
+    
 }
 
 
 
 .tab-content{
+    display: flex;
+
 
 }
 
 
 .bestseller-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
-}  
+#armchairs{
+    display: flex;
+    width: 100%;
+}
