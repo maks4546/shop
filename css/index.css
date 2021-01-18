@@ -1,11 +1,13 @@
 body{
     margin: 0 auto;
     max-width: 1240px;
+    background-color: #fafafa;
 }
 
 .general_nav{
     display: flex;
     align-items: center;
+    background-color: #fafafa;
 }
 
 #main_nav button{
@@ -51,7 +53,7 @@ img{
 
 
 header .banner{
-    background-image:url(../img/bacmain.png);
+    background-image:url(../img/bac_main.png);
     min-height: 750px;
     background-size: cover;
     background-position: center;
@@ -213,6 +215,8 @@ nav a {
 .spring-coll{
     padding-top: 60px;
     background-image:url(../img/bacgroung-img\ 2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     min-height: 650px;
     background-size: cover;
     background-position: center;
@@ -401,9 +405,6 @@ nav a {
     background-color: white;
 }
 
-.top_brand_1{
-    margin-top: 90px;
-}
 
 
 .main_brand{
@@ -411,11 +412,12 @@ nav a {
 }
 
 .top_brand_1{
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     width: 600px;
     height: 300px;
-    background-color: white;
+    background-color: #fafafa;
 
 }
 .top_product_image1 img{
