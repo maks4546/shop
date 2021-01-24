@@ -20,6 +20,12 @@ body{
     font-weight: bold;
 }
 
+#main_nav button:hover{
+    background-color: #7bb57c;
+    color: white;
+}
+
+
 nav{
     display: flex;
 }
@@ -134,6 +140,10 @@ nav a {
     width: 220px;
 }
 
+.banner button:hover{
+    background-color: #333;
+}
+
 .info{
     display: flex;
     flex-direction: column;
@@ -238,6 +248,10 @@ nav a {
     width: 220px;
 }
 
+.spring-coll button:hover{
+background-color: #333;
+}
+
 .spring-coll p{
     color: #333;
     font-size: 20px;
@@ -309,7 +323,10 @@ nav a {
     font-size: 10px;
     font-weight: bold;
     background-color: #7bb57c;
+}
 
+.butt button:hover{
+    background-color: #333;
 }
 
 .mini2 .content_text_import{
@@ -354,11 +371,17 @@ nav a {
     flex-direction: column;
 }
 
+
 .price{
     padding-bottom: 20px;
     color: #7bb57c;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.price:hover{
+    color: #7bb57c;
 }
 
 .best-selling button{
@@ -372,6 +395,9 @@ nav a {
     font-weight: bold;
 }
 
+.best-selling button:hover{
+    background-color: #333;
+}
 .tables button{
     color: grey;
     border: 1px solid #7bb57c;
@@ -448,6 +474,11 @@ nav a {
     margin-top: 20px;
 }
 
+.top_brand_1 button:hover{
+    background-color: #7bb57c;
+    color: white;
+}
+
 .top_product_image2 img{
     width: 600px;
     height: 400px;
@@ -458,33 +489,14 @@ nav a {
 .bestseller-card{
     display: flex;
 }
-
-.products{
-    
-}
-
 #shop-tab{
     width: 100%;
 }
-
-
-.shop{
-    
-}
-
-
-
 .box{
-    display: flex;
-    
+    display: flex;   
 }
-
-
-
 .tab-content{
     display: flex;
-
-
 }
 
 
@@ -495,6 +507,50 @@ nav a {
 }
 
 #armchairs{
-    display: flex;
+   
     width: 100%;
+}
+
+
+.bestseller-list #lamps{
+    width: 100%;
+}
+
+#lamps .product_conteiner{
+    padding-right: 80px;
+}
+
+#tables .product_conteiner{
+    padding-right: 80px;
+}
+
+.bestseller-list button{
+    color: grey;
+    border: 2px solid #7bb57c;
+    border-radius: 0.3vw;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.bestseller-list button:hover{
+    background-color: #7bb57c;
+    color: white;
+}
+
+.nav-item{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link .active{
+    color: black;
+}
+
+.nav-link{
+    color: grey;
 }
