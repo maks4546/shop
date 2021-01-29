@@ -1,4 +1,6 @@
-@media screen and (min-width: 1240px) {
+ @media{ 
+     min-width: 1240px;     
+ }
 body {
     margin: 0 auto;
     max-width: 1240px;
@@ -557,7 +559,7 @@ background-color: #333;
 }
 
 
-/* Shop-cart */
+Shop-cart
 #enscart_my_wrapper {
     text-align: center;
     position: fixed;
@@ -688,7 +690,7 @@ background-color: #333;
 }
 .nav_down{
     padding-left: 100px;
-}}
+}
 
 
 
@@ -698,7 +700,7 @@ background-color: #333;
 
 
 
-@media (min-width: 992px){
+ @media (max-width: 992px){
     body {
     margin: 0 auto;
     max-width: 992px;
@@ -1252,7 +1254,7 @@ background-color: #333;
 }
 
 
-/* Shop-cart */
+Shop-cart
 #enscart_my_wrapper {
     text-align: center;
     position: fixed;
@@ -1385,14 +1387,14 @@ background-color: #333;
 .nav_down{
     padding-left: 80px;
 }
-}
+} 
 
 
 
 
 
 
-@media (min-width: 544px){
+@media (max-width: 600px){
     body {
     margin: 0 auto;
     max-width: 544px;
@@ -2084,3 +2086,18 @@ background-color: #333;
     padding-left: 30px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
