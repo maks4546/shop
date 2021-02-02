@@ -266,7 +266,19 @@
 }
 @media only screen and (max-width: 480px){
     .w-text-block{
-        font-size: 65px;
+        font-size: 48px;
+    }
+    .facebook img{
+        width: 35px;
+        height: 35px;
+    }
+    .instagramm img{
+        width: 35px;
+        height: 35px;
+    }
+    .youtube img{
+        width: 35px;
+        height: 35px;
     }
 }
 @media only screen and (max-width: 320px){
