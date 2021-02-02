@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1200px){
+    body{
+        width: 100%;
+        margin-left: 110px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    #main_nav button{
+        font-size: 8px;
+    }
+    .logo{
+    margin-right: 100px;
+    }
+    .img_product img{
+        width: 295px;
+        height:220px;
+    }
+    .info{
+        margin-left: 30px;
+    }
+    .mini1, .mini2{
+        width: 490px;
+        height: 320px;
+    }
+    .mini-cards{
+        margin-bottom: 30px;
+    }
+    .img_product_second img {
+        width: 220px;
+        height: 250px;
+    }
+    #lamps .product_conteiner {
+        padding-right: 35px;
+    }
+
+    #tables .product_conteiner {
+        padding-right: 35px;
+    }
+    .top_product_image1 img {
+        width: 550px;
+        height: 350px;
+    }
+    .top_product_image2 img {
+        width: 550px;
+        height: 350px;
+    }
+    .top_brand_1{
+        margin-top: 0;
+    }
+    .nav_down{
+        padding-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px){
+    body{
+        width: 100%;
+        margin-left: 20px;
+    }
+    nav a{
+        font-size: 13px;
+    }
+    #main_nav button{
+        font-size: 7px;
+    }
+    .logo{
+    margin-right: 60px;
+    }
+    .logo img{
+        width:100px;
+	    height:50px;
+    }
+    .img_product img{
+        width: 230px;
+        height:190px;
+    }
+    .info{
+        margin-left: 20px;
+    }
+    .selling .text-block{
+        width: 100%;
+        font-size: 58px;
+    }
+    .mini1, .mini2{
+        width: 375px;
+        height: 260px;
+    }
+    .mini-cards{
+        margin-bottom: 30px;
+    }
+    .content_text_import_gen {
+        font-size: 16px;
+    }
+    .content_text_import{
+        padding-top: 25px;
+    } 
+    .butt button{
+        font-size: 8px;
+    }
+    .img_product_second img {
+        width: 170px;
+        height: 205px;
+    }
+    .products p{
+        font-size: 15px;
+    }
+    .top_product_image1 img {
+        width: 430px;
+        height: 260px;
+    }
+    .top_product_image2 img {
+        width: 430px;
+        height: 260px;
+    }
+    .content_text{
+        font-size: 11px;
+    }
+    .top_brand_1 .content_text_import_gen{
+        font-size: 24px;
+    }
+    .main_brand{
+        margin-bottom: 0;
+    }
+    .left-side img{
+        width: 120px;
+        height: 60px;
+    }
+    .left-side p{
+        font-size: 10px;
+    }
+    .foot_menu a{
+        font-size: 11px;
+    }
+    .foot_menu{
+        margin-left: 0;
+    }
+    .main_nav_down{
+        margin-left: 63px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .logo{
+    margin-right: 0px;
+    }
+    .logo img{
+        width: 100px;
+        height: 50px;
+    }
+    header .banner{
+        background-image: none;
+        min-height: 400px;
+    }
+    .w-text-block{
+        font-size: 75px;
+    }
+    .block{
+        flex-direction: column;
+    }
+    .info{
+        margin-top: 40px;
+    }
+    .img_product img{
+        width: 270px;
+        height: 215px;
+    }
+    .info_text{
+        font-size: 18px;
+    }
+    .selling .text-block{
+        font-size: 45px;    
+    }
+    .best-selling{
+        flex-direction: column;
+    }
+    .spring-coll{
+        background-image: none;
+        min-height: 400px;
+    }
+    .spring-coll p{
+        width: 100%;
+    }
+    .mini-cards{
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .mini1{
+        margin-bottom: 20px;
+    }
+    .butt button{
+        font-size: 7px;
+        padding: 10px 20px;
+    }
+    .bestseller-list{
+        flex-direction: column;
+    }
+    #lamps .product_conteiner{
+        padding-right: 0;
+        padding-left: 135px;
+    }
+    #tables .product_conteiner{
+        padding-right: 0;
+        padding-left: 135px;
+    }
+    .main_brand{
+        flex-direction: column;
+    }
+    .top_brand_1{
+        width: 100%;
+    }
+    .top_brand_1 span{
+        padding-left: 0;
+    }
+    .top_brand_1 p{
+        padding-left: 0;
+        width: 100%;
+    }
+    .top_product_image1 img{
+        width: 100%;
+        height: 300px;
+    }
+    .top_product_image2 img{
+        width: 100%;
+        height: 300px;
+    }
+    .end_site{
+        flex-direction: column;
+    }
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .left-side img{
+        width: 120px;
+        height: 60px;
+    }
+    .main_nav_down{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .foot_menu{
+        margin-top: 5px;
+    }
+    .img_product_second img{
+        width: 220px;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 480px){
+    
+}
+@media only screen and (max-width: 320px){
+    
+}
