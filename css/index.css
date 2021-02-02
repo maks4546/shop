@@ -130,7 +130,7 @@ nav a {
     font-size: 20px;
 }
 
-.banner button{
+.banner button {
     color: white;
     border: 1px solid #7bb57c;
     border-radius: 0.3vw;
@@ -144,6 +144,10 @@ nav a {
 
 .banner button:hover{
     background-color: #333;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
 }
 
 .info{
@@ -252,6 +256,10 @@ nav a {
 
 .spring-coll button:hover{
 background-color: #333;
+}
+.spring-coll a{
+    text-decoration: none;
+    color: white;
 }
 
 .spring-coll p{
